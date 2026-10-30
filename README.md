@@ -1,16 +1,113 @@
-# React + Vite
+# D2C Ecommerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern direct-to-consumer ecommerce platform built with React and Vite. The application provides a smooth shopping experience with product discovery, cart management, authentication, responsive layouts, and a streamlined checkout flow.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Visit Live Website](https://shivani-ten.vercel.app)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern and responsive ecommerce interface
+- Product browsing and category-based discovery
+- Product details and search experience
+- Add to cart and cart quantity management
+- User authentication and account features
+- Secure checkout workflow
+- Toast notifications and interactive UI feedback
+- Smooth animations using Framer Motion
+- Supabase integration for backend services
+- Contact and customer communication support
+- Mobile-first responsive design
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router
+- Tailwind CSS
+- Supabase
+- Framer Motion
+- Lucide React
+- React Hot Toast
+- EmailJS
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/JatinxKumar/D2C-Ecommerce.git
+cd D2C-Ecommerce
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Configure environment variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open the application at:
+
+```text
+http://localhost:5173
+```
+
+## Available Scripts
+
+```bash
+npm run dev       # Start development server
+npm run build     # Create production build
+npm run preview   # Preview production build
+npm run lint      # Run ESLint
+```
+
+## Project Structure
+
+```text
+src/
+├── components/   # Reusable UI components
+├── pages/        # Application pages
+├── assets/       # Images and static assets
+├── lib/          # Supabase and utility configuration
+├── App.jsx       # Main application component
+└── main.jsx      # Application entry point
+```
+
+## Deployment
+
+The project can be deployed easily using platforms such as:
+
+- Vercel
+- Netlify
+- Render
+
+Build the project before deployment:
+
+```bash
+npm run build
+```
+
+## Author
+
+**Jatin Kumar**
+
+- GitHub: [@JatinxKumar](https://github.com/JatinxKumar)
